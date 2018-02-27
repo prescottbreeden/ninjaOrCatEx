@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    console.log("Power Overwhelming...")
+    $(document).ready(function(){
+
+    $('.img-cat-0').click(function(){
+        $(this).attr('src','img/ninja0.png');
+    })
+    $('.img-cat-1').click(function(){
+        $(this).attr('src','img/ninja1.png');
+    })
+    $('.img-cat-2').click(function(){
+        $(this).attr('src','img/ninja2.png');
+    })
+    $('.img-cat-3').click(function(){
+        $(this).attr('src','img/ninja3.png');
+    })
+
+    })
+    </script>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    div {
+        margin-top: 200px; 
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+    </style>
+    <title>Ninja or Cat Game</title>
+</head>
+<body>
+    <div>
+        <img src="img/cat0.png" alt="" class="img-cat-0">
+        <img src="img/cat1.png" alt="" class="img-cat-1">
+        <img src="img/cat2.png" alt="" class="img-cat-2">
+        <img src="img/cat3.png" alt="" class="img-cat-3">
+    </div>
+</body>
+</html>
